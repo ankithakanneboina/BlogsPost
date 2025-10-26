@@ -1,0 +1,24 @@
+.container {
+            display: flex;           /* Make children side by side */
+            gap: 20px;               /* Space between divs */
+            flex-wrap: wrap;         /* Wrap on small screens */
+            margin: 50px;
+        }
+
+        .left, .right {
+            flex: 1;                 /* Each div takes equal space */
+            min-width: 250px;        /* Prevent shrinking too much */
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        
+        .s1{
+            width: 300px;
+        }
+.h1,.date{
+    width:350px;
+    margin-left: 52px;
+ gap: 20px;         
+
+}
